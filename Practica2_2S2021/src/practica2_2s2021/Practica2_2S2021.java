@@ -5,6 +5,8 @@
  */
 package practica2_2s2021;
 
+import practica2.Pantallainicial;
+
 /**
  *
  * @author 50242
@@ -15,7 +17,8 @@ public class Practica2_2S2021 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Pantallainicial a = new Pantallainicial();
+        a.setVisible(true);
     }
     
 }
